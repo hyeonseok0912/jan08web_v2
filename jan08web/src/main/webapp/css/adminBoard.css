@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+table{
+	border-collapse: collapse;
+}
+
+tr:hover{
+	background-color: silver;
+}
+
+article{
+	margin: 10px;
+	padding: 10px;
+	width: calc(100% - 40px);
+	height: calc(100vh - 40px);
+	overflow: scroll;
+}
+
+table{
+	width: 100%;
+	height: auto;
+	border-collapse:collapse;
+}
+th{
+	background-color: aqua;
+	height: 30px;
+	line-height: 30px;
+	font-size: large;
+}
+tr{
+	height: 30px;
+	line-height: 30px;
+}
+
+td{
+	text-align: center;
+}
+
+.d1{
+	width: 10%;
+}
+.d2{
+	width: 20%;
+}
+.title{
+	width: 20%;
+	text-align: left;
+}
+.row0{  
+	background-color: #FFDC46;
+}

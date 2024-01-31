@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.first{
+	background-color: white;
+}
+
+.second{
+	background-color: silver;
+}
+
+.coffeeselect {
+    display: flex;
+    flex-direction: column;
+}
+
+.coffeeselect input[type="radio"] {
+    margin-bottom: 10px;
+}
