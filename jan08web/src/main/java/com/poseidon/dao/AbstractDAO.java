@@ -7,7 +7,8 @@ import java.sql.SQLException;
 
 import com.poseidon.db.DBConnection;
 
-//부모 DAO = DBConn, close
+//부모 DAO = DBConn, close    
+  
 public class AbstractDAO {
 	DBConnection db = DBConnection.getInstance();
 	
